@@ -1,0 +1,39 @@
+
+INTRO
+
+Sparklines are high content to size ratio minigraphs inspired by Edward Tufte.
+
+The focus of a sparkline is to provide additional context inline with text
+so users can do more informed analysis and make better decisions.  To make
+them fit with inline text, sparklines are generally small (100px x 30px)
+and dispense with axis labels and units.
+
+
+REFERENCES
+
+o http://www.edwardtufte.com/bboard/q-and-a-fetch-msg?msg_id=0001OR&topic_id=1
+o http://bitworking.org/projects/sparklines/
+
+
+
+
+INSTALL
+
+  % runhaskell Setup.lhs configure
+  % runhaskell Setup.lhs build
+  % runhaskell Setup.lhs haddock
+  % sudo runhaskell Setup.lhs install
+
+
+NOTES
+
+You may encounter problems building the documentation if you're using
+a version of haddock before version 2.0.0.0.
+
+
+ACKNOWLEDGEMENTS
+
+Joe Gregorio's Python implementation of Sparklines served as an inspiration
+for doing a Haskell version.  He's done some good work, make sure to check
+out his site http://bitworking.org/
+
